@@ -1,0 +1,52 @@
+body{
+    background-color: #1f1f1f;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s;
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+span {
+    color: rgb(209, 20, 20);
+}
+
+.vet {
+    color: rgb(0, 0, 0);
+}
+
+.principal {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+
+.meio {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.resultado {
+    background-color: white;
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 7px;
+    color: white;
+    color: black;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 1px 1px 4px black;
+    transition: 0.3s;
+    border-style: none;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.192);
+    transition: 0.3s;
+}
