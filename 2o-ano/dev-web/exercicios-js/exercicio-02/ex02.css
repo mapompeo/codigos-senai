@@ -1,0 +1,31 @@
+body {
+    background-image: linear-gradient(180deg, #353535, #1f1f1f);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.primario {
+    background-color: #e6e6e6e5;
+    border-radius: 5px;
+    padding: 10px 10px 20px 10px;
+    margin: 10px 400px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.botao {
+    background-color: white;
+    font-size: x-large;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 10px #1f1f1f;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #e6e6e6e5;
+    transition: 0.3s;
+}
