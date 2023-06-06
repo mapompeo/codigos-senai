@@ -28,7 +28,9 @@ function calculo() {
     }
     i++
 
-    valores.innerHTML = `Valores: [`+ vetor[0] + vetor[1] + vetor[2] + vetor[3] + vetor[4] + `]`
+}
+
+    valores.innerHTML = `Valores: ${vetor[0]}, ${vetor[0]}`
 
     console.log()
 }
