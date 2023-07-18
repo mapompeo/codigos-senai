@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.541), rgba(48, 48, 214, 0.589));
+    background-attachment: fixed;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button, input {
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    transition: 0.3s;
+}
+
+input, label {
+    margin: 10px;
+}
+
+#res, #res2, #res3, button {
+    margin: 10px;
+    display: block;
+}
+
+button:hover, input:hover {
+    background-color: rgba(255, 255, 255, 0.747);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.411);
+    cursor: pointer;
+}
