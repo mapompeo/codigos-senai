@@ -17,6 +17,5 @@ function pesquisa() {
         if (pesq == num_array[index]) {
             console.log(`O valor existe e é igual a = ${num_array[index]}`)
         }
-        
     }
 }

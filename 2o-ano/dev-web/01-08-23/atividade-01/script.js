@@ -12,15 +12,22 @@ function salva() {
 }
 
 function ordena() {
-    let menor = num_array [0]
-    let tamanho = num_array.length
+    let menor = num_array[0]
 
-    let pesq = Number(document.getElementById('pesq').value)
-    for (let index = 0; index < num_array.length; index++) {
-        console.log(`O valor do array é = ${num_array[index]}`)
-        if (menor > num_array[index + 1]) {
-            num_array[index] = num_array[index + 1]
-            num_array[index + 1] = menor
+    for (let i = 0; i < num_array.length; i++) {
+        let j = i - 1
+        while (j >= 0 && menor < num_array[j]) {
+            num_array[j + 1] = num_array[j]
         }
     }
+
+    num_array[j + 1] = menor
+    console.log(num_array)
+
+    // Troca de valores entre posição do vetor nas variáveis
+    // Inverter posição de valores no array
+    // let menor = num_array[0]
+    // num_array[0] = num_array[1]
+    // num_array[1] = menor
+
 }
