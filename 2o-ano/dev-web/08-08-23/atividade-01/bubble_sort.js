@@ -40,7 +40,7 @@
         console.log(num_array)
         console.log('=============')
 
-        console.log(`O número de vezes é que o progama repetiu o for é de ${contador} vezes`)
+        console.log(`O número de vezes que o progama repetiu o for é de ${contador} vezes`)
 
-        res2.innerHTML = `Os valores ordenados por ordem crescente são: ${num_array}.`
+        res2.innerHTML = `Os valores ordenados por ordem crescente utilizando o método "bubble.sort" são: ${num_array}.`
     }
