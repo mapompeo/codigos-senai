@@ -13,7 +13,7 @@ function octal(){
     let coctal = parseInt(numero, 10)
     let final = coctal.toString(8)
 
-    res.innerHTML = `O número ${numero} em binário fica ${final}`
+    res.innerHTML = `O número ${numero} em octal fica ${final}`
 }
 
 function hexadecimal(){
@@ -21,5 +21,5 @@ function hexadecimal(){
     let coctal = parseInt(numero, 10)
     let final = coctal.toString(16)
 
-    res.innerHTML = `O número ${numero} em binário fica ${final}`
+    res.innerHTML = `O número ${numero} em hexadecimal fica ${final}`
 }
