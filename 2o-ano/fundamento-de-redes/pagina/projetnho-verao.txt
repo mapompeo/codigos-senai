@@ -1,0 +1,11 @@
+Página Home
+- Informações sobre computadores desktop com imagens de 2 computadores.
+
+Página Notebook
+- Informações sobre notebooks com imagens de 4 notebooks.
+
+Página Impressoras
+- Informações sobre impressoras com 2 imagens de impressoras
+
+Página Mouse
+- Informações sobre mouses com 6 imagens.
