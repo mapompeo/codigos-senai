@@ -1,7 +1,8 @@
 body {
-    background-color: aliceblue;
+    background-color: rgba(99, 161, 216, 0.479);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
+    text-align: center;
 }
 
 button, input {
