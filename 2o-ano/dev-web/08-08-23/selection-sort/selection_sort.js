@@ -1,7 +1,6 @@
 let res = document.getElementById('res')
 let res2 = document.getElementById('res2')
 
-let num_array_original = []
 let num_array = []
 let contador = 0
 
