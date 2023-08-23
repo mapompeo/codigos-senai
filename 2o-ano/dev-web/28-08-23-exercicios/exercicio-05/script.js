@@ -3,7 +3,7 @@ let resultadoVerify = document.getElementById('resultadoVerify')
 let arrayRandomize = []
 
 function create(minimo, maximo){ 
-    let resultadoRandom = Math.random() * (maximo - minimo + 1) + minimo
+    let resultadoRandom = Math.random() * (maximo - minimo) + minimo
     return resultadoRandom
 }
 
@@ -16,7 +16,13 @@ function randomize(){
         let resultado = create(minimo, maximo)
         arrayRandomize.push(resultado)
     }
-    resultadoRandomize.innerHTML = `As ${arrayRandomize.length} alturas aleatórias são = ${arrayRandomize.join(', ')}.`
+
+    // Código pegado na internet para arredondar os valores do vetor para uma casa decimal depois da vírgula
+    let decimalPlaces = 2;
+    let fixedArray = arrayRandomize.map(value => Number(value.toFixed(decimalPlaces)));
+    // --
+
+    resultadoRandomize.innerHTML = `As ${arrayRandomize.length} alturas aleatórias são = ${fixedArray.join('m, ')}m.`
 }
 
 function verify(){
@@ -27,12 +33,12 @@ function verify(){
     for (let index = 0; index < arrayRandomize.length; index++) {
         if (arrayRandomize[index] < 1.60) {
             baixo++
-        } else if (arrayRandomize[index] >= 1.60 && arrayRandomize[index] < 1.86) {
+        } else if (arrayRandomize[index] >= 1.61 && arrayRandomize[index] < 1.86) {
             medio++
         } else {
             alto++
         }
     }
 
-    resultadoVerify.innerHTML = `A quantidade de alturas baixas é ${baixo}, alturas ${medio} médias  e ${alto} altas.`
+    resultadoVerify.innerHTML = `A quantidade de alturas baixas é ${baixo}, ${medio} alturas médias e ${alto} altas.`
 }
