@@ -17,7 +17,7 @@ function randomize(){
         arrayRandomize.push(resultado)
     }
 
-    // Código pegado na internet para arredondar os valores do vetor para uma casa decimal depois da vírgula
+    // Código pego na internet para arredondar os valores do vetor para duas casas decimais depois da vírgula
     let decimalPlaces = 2;
     let fixedArray = arrayRandomize.map(value => Number(value.toFixed(decimalPlaces)));
     // --
