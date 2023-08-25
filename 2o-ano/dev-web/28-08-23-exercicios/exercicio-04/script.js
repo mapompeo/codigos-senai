@@ -1,5 +1,11 @@
 let array = []
 
+function apertado() {
+    if (event.key === 'Enter') {
+      inserir();
+    }
+}
+
 function inserir() {
     let valorMaximo = Number(document.getElementById('input').value)
     array = []

@@ -3,6 +3,12 @@ let erro = document.getElementById('erro')
 let vetor = document.getElementById('vetor')
 let array = []
 
+function apertado() {
+    if (event.key === 'Enter') {
+      inserir();
+    }
+}
+
 function inserir() {
     let input = Number(document.getElementById('input').value)
 
