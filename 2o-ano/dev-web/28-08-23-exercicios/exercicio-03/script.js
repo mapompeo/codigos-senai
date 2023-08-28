@@ -16,7 +16,7 @@ function inserir() {
         if (array.length < 6) {
             array.push(input);
             vetor.innerHTML = `Os valores inseridos são: ${array.join(', ')}.`
-            erro.innerHTML = ''; // Limpar a mensagem de erro se estiver visível
+            erro.innerHTML = ''
         } else {
             erro.innerHTML = 'Você já inseriu o número máximo de valores.'
         }
