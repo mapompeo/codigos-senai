@@ -1,5 +1,6 @@
 body {
-    background-color: aliceblue;
+    background-image: linear-gradient(#F2F5A0, #B1FA96);
+    background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     display: flex;
@@ -11,6 +12,7 @@ body {
 }
 
 input, button {
+    font-weight: bold;
     text-align: center;
     border-radius: 5px;
     border-style: none;
@@ -19,7 +21,7 @@ input, button {
     height: auto;
     transition: all 0.3s;
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
 }
 
 input:hover, button:hover {
