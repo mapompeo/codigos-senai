@@ -34,4 +34,4 @@ function media() {
     document.getElementById('mediaResposta').innerHTML = `A média dos valores é: ${soma.toFixed(2)}!`
 }
 
-// no código existem dois modos de fazer a média dos valores, um método está sendo usado e o outro está comentado!!
+// no código existem dois modos de fazer a média dos valores, um método está sendo usado e o outro está comentado!

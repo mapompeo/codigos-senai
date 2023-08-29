@@ -13,5 +13,6 @@ function adicionar() {
     for (let i = 0; i < array.length; i++) {
         soma += array[i]
     }
+    soma = soma/array.length
     document.getElementById('mediaResposta').innerHTML = `A média dos valores é: ${soma.toFixed(2)}!`
 }
