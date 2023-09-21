@@ -1,0 +1,33 @@
+body {
+    background-image: radial-gradient(rgba(138, 138, 138, 0.527),rgba(138, 138, 138, 0.918));
+    background-attachment: fixed;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+    transition: all;
+    margin: 30px;
+}
+
+button, input {
+    margin: 10px;
+    border-radius: 5px;
+    border: solid 1px rgba(0, 0, 0, 0.178);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.438);
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+    transition: 0.3s;
+    font-size: 16px;
+    text-align: center;
+}
+
+button:hover, input:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.521);
+    transition: 0.3s;
+}
