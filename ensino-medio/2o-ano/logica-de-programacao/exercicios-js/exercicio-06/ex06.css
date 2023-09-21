@@ -1,0 +1,31 @@
+body {
+    background-image: linear-gradient(0deg, #5E8F8A, #A6DBD6);
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    width: 40px;
+    text-align: left;
+}
+
+button {
+    border-radius: 5px;
+    background-color:#96e0d9b6;
+    width: 80px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color:#78aca6;
+    transition: 0.3s;
+    box-shadow: 1px 1px 5px rgb(97, 194, 194);
+}

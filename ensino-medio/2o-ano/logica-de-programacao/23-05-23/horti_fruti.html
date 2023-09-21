@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horti-Fruti</title>
+    <link rel="stylesheet" href="horti_fruti.css">
+</head>
+<body>
+    <h1>Cálculo do preço da compra de frutas e verduras</h1>
+    <br>
+    <h2 class="titulo-produto">Preço dos produtos:</h2>
+    <p class="produto">Tomate - R$5,35</p>
+    <p class="produto">Cebola - R$3,32</p>
+    <p class="produto">Aipim - R$2,87</p>
+    <p class="produto">Batata Inglesa - R$4,43</p>
+    <p class="produto">Cenoura - R$3,59</p>
+    <p class="produto">Chuchu - R$1,79</p>
+    <br>
+    <p class="titulo-quantidade">Digite a quantidade de frutas e verduras!</p>
+    <label for="qt_tomate">Tomate</label>
+    <input type="text" id="qt_tomate">
+    <br>
+    <label for="qt_cebola">Cebola</label>
+    <input type="text" id="qt_cebola">
+    <br>
+    <label for="qt_aipim">Aipim</label>
+    <input type="text" id="qt_aipim">
+    <br>
+    <label for="qt_batata-inglesa">Batata Inglesa</label>
+    <input type="text" id="qt_batata-inglesa">
+    <br>
+    <label for="qt_cenoura">Cenoura</label>
+    <input type="text" id="qt_cenoura">
+    <br>
+    <label for="qt_chuchu">Chuchu</label>
+    <input type="text" id="qt_chuchu">
+    <br>
+    <br>
+    <button class="botao" onclick="calcula()">Calcular</button>
+    <br>
+    <br>
+    <p id="res"></p>
+
+
+    <script src="horti_fruti.js" defer></script>
+</body>
+</html>

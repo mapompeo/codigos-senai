@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Online</title>
+    <link rel="stylesheet" href="ex02.css">
+</head>
+<body>
+    <div class="primario">
+        <h1>Conversor de Medidas</h1>
+        <label for="mercurio">insira o valor da pressão de graus milímetros de mercúrio (mmHg):</label>
+        <input id="mercurio" type="number">
+        <br>
+        <br>
+        <label for="psi">insira o valor de libras por polegada quadrada (PSI):</label>
+        <input id="psi" type="number">
+        <br>
+    </div>
+    <br>
+    <button class="botao" onclick="calculo()">Converter</button>
+    <br>
+    <br>
+    <div id="res_mercurio"></div>
+    <br>
+    <div id="res_psi"></div>
+    
+
+    <script src="ex02.js" defer></script>
+</body>
+</html>
