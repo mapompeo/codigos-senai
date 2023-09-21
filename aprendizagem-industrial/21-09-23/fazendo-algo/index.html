@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nada pra fazer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="botões">
+        <button class="gerar" onclick="gerar()">
+            <p>Gerar valores</p>
+        </button>
+        <button class="somar" onclick="somar()">
+            <p>Somar pares</p>
+        </button>
+    </div>
+    <div class="texto">
+        <p id="valores">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, soluta. Accusantium labore debitis facere architecto officiis aut non fugiat deserunt. Non repellendus, suscipit praesentium deleniti qui exercitationem mollitia eveniet minima.</p>
+    </div>
+    <div class="divInput">
+        <div><input class="inputValores" type="number" id="tamanhoVetor" placeholder="Digite a quantidade de número"></div>
+        <div><button onclick="gerar()">Gerar valores</button></div>
+    </div>
+    <div class="ultimaDiv">
+        <div id="pares"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

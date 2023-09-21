@@ -1,0 +1,48 @@
+body {
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+input, button {
+    transition: all 0.3s;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.377);
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.botões {
+    background-color: rgba(0, 255, 255, 0.308);
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.texto {
+    background-color: rgba(0, 0, 255, 0.226);
+    padding: 20px;
+
+}
+
+.divInput {
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(220, 20, 60, 0.301);
+
+}
+
+.ultimaDiv {
+    padding: 50px;
+    background-color: rgba(128, 255, 0, 0.178);
+}
