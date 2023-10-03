@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(91, 91, 117);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+button{
+    background-color: rgb(141, 141, 141);
+    color:white;
+    border-radius: 5px;
+    border: solid 1px black;
+}
