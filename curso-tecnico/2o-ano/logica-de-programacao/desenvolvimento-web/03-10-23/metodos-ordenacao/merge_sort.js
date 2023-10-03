@@ -12,6 +12,7 @@ function inserir(){
         random = Math.floor(Math.random() * (100 - 0 + 1) + 0)
         num_array_original.push(random)
     }
+    console.log(num_array_original)
     res.innerHTML = `${num_array_original.join(", ")}.`
 }
 
