@@ -1,0 +1,132 @@
+body {
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* BOX's */
+.box {
+    width: 100px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#box1 {
+    background-color: rgb(80, 221, 134);
+    /* Animação */
+    animation-name: anime_box1;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#box2 {
+    background-image: linear-gradient(45deg, rgba(0, 0, 255, 0.568), rgba(255, 0, 0, 0.534));
+    /* Animação */
+    animation-name: anime_box2;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#box3:hover {
+    background-image: radial-gradient(rgba(128, 0, 128, 0.459), cyan);
+    /* Animação */
+    animation-name: anime_box3;
+    animation-duration: 5ms;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+
+
+/* KEYFRAME ANIMAÇÕES */
+@keyframes anime_box1 {
+    0% {
+        border-radius: 10px;
+        transform: scale(0.5);
+    }
+
+    50% {
+        opacity: 0.3;
+        border-radius: 50px;
+        transform: scale(0.7);
+    }
+
+    100% {
+        border-radius: 10px;
+        transform: scale(0.5);
+    }
+}
+
+@keyframes anime_box2 {
+    0% {
+        border-radius: 10px;
+        opacity: 0.3;
+        border-radius: 50px;
+        rotate: 0deg;
+    }
+
+    25% {
+        border-radius: 10px;
+        opacity: 0.3;
+        border-radius: 50px;
+        rotate: 90deg;
+    }
+
+    50% {
+        border-radius: 10px;
+        opacity: 0.3;
+        border-radius: 50px;
+        rotate: 180deg;
+    }
+
+    75% {
+        border-radius: 10px;
+        opacity: 0.3;
+        border-radius: 50px;
+        rotate: 270deg;
+    }
+
+    100% {
+        border-radius: 10px;
+        opacity: 0.3;
+        border-radius: 50px;
+        rotate: 360deg;
+    }
+}
+
+@keyframes anime_box3 {
+    0% {
+        border-radius: 10px;
+        transform: scale(0.5);
+    }
+
+    50% {
+        opacity: 0.3;
+        border-radius: 50px;
+        transform: scale(0.7);
+        rotate: -90deg;
+    }
+
+    100% {
+        border-radius: 10px;
+        transform: scale(0.5);
+        opacity: 0.3;
+        border-radius: 50px;
+        transform: scale(0.7);
+        rotate: -180deg;
+    }
+}
+
