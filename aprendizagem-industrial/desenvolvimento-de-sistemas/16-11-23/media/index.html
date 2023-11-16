@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="box">
+        <h1>Média de notas!</h1>
+        <div class="elementos">
+            <label for="1">Digite a primeira nota:</label>
+            <input type="number" id="1" placeholder="Digite sua nota">
+            <label for="2">Digite a segunda nota:</label>
+            <input type="number" id="2" placeholder="Digite sua nota">
+            <label for="3">Digite a terceira nota:</label>
+            <input type="number" id="3" placeholder="Digite sua nota">
+        </div>
+        <div class="botoes">
+            <button onclick="media()">Média</button>
+            <button onclick="reload()"><img src="https://cdn.iconscout.com/icon/free/png-256/free-refresh-reload-recycle-synchronize-retry-30557.png" alt="Refresh Page"></button>
+        </div>
+        <div class="elmentos">
+            <div id="resultado"></div>
+        </div>
+    </div>
+</body>
+</html>
