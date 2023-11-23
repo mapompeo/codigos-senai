@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
-    background-image: url("https://4.bp.blogspot.com/-wpGcMwMGFHQ/V6ZtydFbufI/AAAAAAAADHk/4hELqSh4eYIUb1tqvi_VUN4f782BUSVgwCLcB/s1920/amazing_landscape-wallpaper-1920x1080.jpg");
-    background-attachment: fixed;
+    background-color: rgb(231, 231, 231);
+    background-image: url("https://images02.brasildefato.com.br/6ae7c73ff25e910c2a641abec0d0cf8d.jpeg");
     font-family: 'Montserrat', sans-serif;
     padding: 50px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    word-wrap: break-word;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .box {
@@ -18,11 +19,10 @@ body{
     padding: 40px 60px;
     background: rgba(255, 255, 255, 0.21);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(25px);
     -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     text-align: center;
-    margin: 1vw 1vh;
 }
 
 .elementos {
@@ -62,6 +62,16 @@ button:hover, input:hover {
 
 input:hover {
     cursor: auto;
+}
+
+.notaBaixa {
+    color: rgb(177, 0, 0);
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.notaAlta {
+    color: rgb(0, 177, 0);
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 img {
