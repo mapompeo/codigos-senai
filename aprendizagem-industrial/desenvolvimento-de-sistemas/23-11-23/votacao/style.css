@@ -8,8 +8,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    font-size: 16px;
+}
+  
+h1 {
+    font-size: 2rem; /* 48px */
+}
+
+p {
+    font-size: 1rem; /* 16px */
 }
 
 .box {
@@ -62,16 +70,6 @@ button:hover, input:hover {
 
 input:hover {
     cursor: auto;
-}
-
-.notaBaixa {
-    color: rgb(177, 0, 0);
-    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-}
-
-.notaAlta {
-    color: rgb(0, 177, 0);
-    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 img {
