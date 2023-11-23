@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média de notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Média do aluno!</h1>
+        <div class="elementos">
+            <p>Insira seu nome e suas notas nos respectivos campos abaixo:</p>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite o nome">
+            <label for="nota1">Digite a nota 1:</label>
+            <input type="number" id="nota1" placeholder="Digite a primeira nota">
+            <label for="nota2">Digite a nota 2:</label>
+            <input type="number" id="nota2" placeholder="Digite a segunda nota">
+            <label for="nota3">Digite a nota 3:</label>
+            <input type="number" id="nota3" placeholder="Digite a terceira nota">
+            <button onclick="calculo()">Verificar</button>
+        </div>
+        <div class="elementos">
+            <div id="resultado"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
