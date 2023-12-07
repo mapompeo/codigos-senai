@@ -20,7 +20,7 @@ body {
     text-align: center;
 }
 
-.box {
+.container-box {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -28,13 +28,17 @@ body {
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     height: auto;
-    padding: 40px;
-    width: 400px auto;
-    margin: 20px;
+    width: 400px;
+    margin: 0;
+}
+
+.box {
+    margin: 40px;
 }
 
 .titulo {
     margin-bottom: 20px;
+    word-wrap: break-word;
 }
 
 .box-content {
@@ -46,24 +50,12 @@ body {
 
 input {
     text-align: center;
-    margin-top: 10px;
+    margin-bottom: 16px;
+    margin-top: 8px;
     height: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.container-botao {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.container-botao2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 button {
@@ -75,34 +67,14 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: max-content;
-    width: max-content;
     padding: 4px;
     margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
 }
 
 button:hover {
     transition: all 0.2s;
     cursor: pointer;
     background-color: rgba(237, 237, 237, 0.2)
-}
-
-#resposta, #atualizacao {
-    margin-top: 10px;
-}
-
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
-
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
 }

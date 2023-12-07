@@ -17,19 +17,17 @@
                 <label for="cidade">Digite o nome da cidade:</label>
                 <input type="text" id="cidade" placeholder="Nome da sua cidade">
                 <div class="container-botao">
-                    <button class="inserir" onclick="inserir()">Inserir</button>
-                    <button class="inserir" onclick="inserir()">Inserir</button>
-                    <button class="inserir" onclick="inserir()">Inserir</button>
-                    <button class="inserir" onclick="inserir()">Inserir</button>
-                    <button class="apagar" onclick="apagar()"><span class="material-symbols-outlined">
-                        delete
-                        </span>
-                    </button>
+                    <button class="inserir" onclick="inserir()" onclick="atualiza()">Inserir</button>
+                    <button class="apagar" onclick="apagar()">Apagar</button>
+                    <button class="inserirInicio" onclick="inserirInicio()">Inserir no início</button>
+                    <button class="apagarInicio" onclick="apagarInicio()">Apagar do início</button>
+                </div>
+                <div class="container-botao2">
                     <button class="refresh" onclick="refresh()"><span class="material-symbols-outlined">
                         refresh
-                        </span></button>
+                        </span>
+                    </button>
                 </div>
-                <div id="atualizacao"></div>
                 <div id="resposta"></div>
             </div>
         </div>
