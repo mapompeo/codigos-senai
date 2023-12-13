@@ -1,0 +1,1 @@
+criando um arquivo pelo terminal utilizando o nome do programa (comando = notepad + nome do arquivo)
