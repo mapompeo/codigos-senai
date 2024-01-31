@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+body {
+    transition: all 0.2s;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(255, 100, 108);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.card {
+    transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 16px;
+}
+
+.roupas {
+    font-weight: 600;
+}
+
+.titulo {
+    font-size: 24px;
+}
+
+input, label, button {
+    margin: 10px;
+    text-align: center;
+}
+
+label {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+button {
+    transition: all 0.2s;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid 1px rgb(0, 0, 0);
+}
+
+button:hover {
+    transition: all 0.2s;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+input {
+    padding: 6px;
+    width: 80%;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid 1px rgb(0, 0, 0);
+}
