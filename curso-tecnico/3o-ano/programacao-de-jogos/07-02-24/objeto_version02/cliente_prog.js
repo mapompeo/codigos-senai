@@ -15,4 +15,9 @@ cadastrar.addEventListener('click', ()=> {
     console.log(cliente1)
 
     cliente1.mensagem()
-})
+    cliente1.teste()
+
+    let resultado = cliente1.teste()
+    console.log(resultado)
+    }
+)

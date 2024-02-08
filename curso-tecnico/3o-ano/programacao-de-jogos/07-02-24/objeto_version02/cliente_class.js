@@ -8,4 +8,13 @@ class Pessoa {
     mensagem() {
         console.log("Olá")
     }
+    
+    teste() {
+        let valor = 2
+        let num = 3
+        let resposta = valor + num
+
+        return resposta
+    }
+
 }

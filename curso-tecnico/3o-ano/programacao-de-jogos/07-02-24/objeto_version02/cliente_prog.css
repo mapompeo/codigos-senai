@@ -23,6 +23,7 @@ body {
     -webkit-backdrop-filter: blur(12.3px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 20px;
+    text-align: center;
 }
 
 label {
@@ -45,8 +46,11 @@ button, input {
 button:hover {
     cursor: pointer;
     transition: all 0.2s;
-    transform: scale(1.1);
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+button:active {
+    transform: scale(0.9);
 }
 
 input {

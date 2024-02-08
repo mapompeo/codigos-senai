@@ -11,7 +11,7 @@ const pessoa = {
 }
 
 const pessoa2 = {
-    nome: 'marly',
+    nome: 'marley',
     idade: 34,
     altura: 1.84
 }
