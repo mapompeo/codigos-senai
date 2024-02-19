@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: rgb(87, 87, 87);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +19,6 @@ canvas {
     left: 0;
     right: 0;
     border-radius: 8px;
-    background-color: beige;
+    background-color: rgb(53, 53, 53);
     border: 1px rgb(207, 207, 207) solid;
 }
