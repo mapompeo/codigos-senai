@@ -9,18 +9,27 @@
 <body>
     <div class="box">
         <h1>Números divisíveis por 7</h1>
-
-        <p>[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</p>
-        <p>[10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]</p>
-
-        <label for="inputUser">Digite um número para ser guardado:</label>
-        <input type="number" id="inputUser">
-
-        <button id="armazenar">Armazenar</button>
-        <div id="resposta"></div>
-
-        <button id="encontrar">Encontrar</button>
-        <div id="resposta2"></div>
+        <div class="marginTop border">
+            <p>[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</p>
+            <p>[10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]</p>
+            <label class="textCenter" for="inputUser">Digite um número para ser guardado:</label>
+            <div class="funcoes">
+                <input type="number" id="inputUser">
+                <button id="armazenar">Armazenar</button>
+                <button class="refresh" id="reiniciar"><img class="refresh" src="refresh.png" alt="Reiniciar"></button>
+            </div>
+            <div id="resposta"></div>
+        </div>
+        <div class="marginTop border">
+            <p>Clique para visualizar os valores divisíveis por 7</p>
+            <button id="divisivel7">Calcular</button>
+            <div id="resposta2"></div>
+        </div>
+        <div class="marginTop border">
+            <p>Clique para visualizar os valores divisíveis por 5</p>
+            <button id="divisivel5">Calcular</button>
+            <div id="resposta3"></div>
+        </div>
     </div>
     <script src="progDivisivel7.js"></script>
 </body>
