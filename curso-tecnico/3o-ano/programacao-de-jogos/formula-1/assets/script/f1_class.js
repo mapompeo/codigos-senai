@@ -92,7 +92,7 @@ class Carro extends Objeto {
     }
 
     point(objeto) {
-        if (this.h > objeto.h) {
+        if (this.y > objeto.y) {
             return true
         } else {
             return false
