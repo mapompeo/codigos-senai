@@ -11,6 +11,12 @@ class Objeto {
         des.fillStyle = this.a
         des.fillRect(this.x,this.y,this.w,this.h)
     }
+
+    desenhaImagem() {
+        let img = new Image()
+        img.src = this.a
+        des.drawImage(img, this.x, this.y, this.w, this.h)
+    }
 }
 
 class Carro extends Objeto {

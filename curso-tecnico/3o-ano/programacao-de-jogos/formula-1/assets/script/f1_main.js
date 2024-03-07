@@ -4,11 +4,11 @@ let des = document.getElementById('des').getContext('2d')
 
 
 // VARIAVEIS
-let carro = new Carro (200,400,30,80,'red')
-let carro02 = new Carro02 (400,900,80,80,'blue')
-let carro03 = new Carro02 (132,1200,80,80,'green')
-let carro04 = new Carro02 (328,1500,80,80,'yellow')
-let carro05 = new Carro02 (5,1800,80,80,'orange')
+let carro = new Carro (200,400,60,120, './assets/images/carro_01.png')
+let carro02 = new Carro02 (400,900,80,80,'./assets/images/carro_02.png')
+let carro03 = new Carro02 (132,1200,80,80,'./assets/images/carro_03.png')
+let carro04 = new Carro02 (328,1500,80,80,'./assets/images/carro_04.png')
+let carro05 = new Carro02 (5,1800,80,80,'./assets/images/carro_05.png')
 
 let estradaFundo = new Estrada ("./assets/images/asfalto.jpg")
 let estradaEsquerda = new Estrada (0,0,16,999,'white')
@@ -119,7 +119,7 @@ function desenha() {
         estradaCentral02.desenhaEstrada()
         estradaCentral03.desenhaEstrada()
 
-        carro.desenhaCarro()
+        carro.desenhaImagem()
         carro02.desenhaCarro()
         carro03.desenhaCarro()
         carro04.desenhaCarro()
