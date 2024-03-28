@@ -1,0 +1,18 @@
+Entidade: Livro
+Atributos:
+ID do Livro: numeric(5) nn
+Título: varchar(100) nn
+Autor: varchar(100) nn
+Ano de Publicação: date(8) nn
+ISBN: numeric(13) nn
+
+Entidade: Autor
+Atributos:
+ID do Autor: numeric(4) nn
+Nome: varchar(100) nn
+Nacionalidade: varchar(100) nn
+
+Entidade: Categoria
+Atributos:
+ID da Categoria: numeric(4) nn
+Nome da Categoria: varchar(100) nn
