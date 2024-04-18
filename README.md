@@ -8,14 +8,17 @@ Este repositório serve como um local centralizado para armazenar todos os arqui
 
 ## Conteúdo do Repositório:
 
-- Lógica de Programação
-- HTML
-- CSS
+- Java
 - JavaScript
 - MySQL
 - Express
 - Node
 - JSON
+- HTML
+- CSS
+- Lógica de Programação
+- Modelos lógicos de banco de dados
+- Diagrama de Classes (UML)
 
 ## **Objetivo**:
 
