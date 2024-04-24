@@ -15,6 +15,6 @@ const User = db.define('tabelas', {
     updatedAt: false
 })
 
-User.sync({force: true})
+// User.sync({force: true})
 
 module.exports = User
