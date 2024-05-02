@@ -1,0 +1,78 @@
+:root {
+    --background-color: #353535;
+    --background-color-light: #f1f1f1;
+    --border-radius: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    transition: all 0.2s;
+    color: var(--background-color-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+
+button, input {
+    transition: all 0.2s;
+    padding: 8px 16px;
+    border: solid 1px var(--background-color);
+    border-radius: var(--border-radius);
+    font-weight: bolder;
+    margin: 8px;
+}
+
+button:hover {
+    transition: all 0.2s;
+    background-color: transparent;
+    border: solid 1px var(--background-color-light);
+    color: var(--background-color-light);
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.container {
+    margin: 24px;
+}
+
+.container-resposta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#resposta {
+    background-color: var(--background-color-light);
+    color: var(--background-color);
+    border-radius: var(--border-radius); 
+    margin: 8px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cep {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+input {
+    text-align: center;
+}
