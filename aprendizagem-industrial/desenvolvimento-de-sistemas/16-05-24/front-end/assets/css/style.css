@@ -1,0 +1,69 @@
+:root {
+    --light-mode: #f1f1f1;
+    --dark-mode: #1f1f1f;
+    --pixel: 8px;
+    --border-radius: 8px
+}
+
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+    background-color: var(--light-mode);
+    color: var(--dark-mode);
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+}
+
+.crud-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.crud {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    margin: calc(2 * var(--pixel));
+}
+
+.crud-links {
+    transition: all ease-in-out 0.2s;
+    color: var(--light-mode);
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: solid 2px var(--dark-mode);
+    border-radius: var(--border-radius);
+    background-color: var(--dark-mode);
+    margin: var(--pixel);
+    padding: var(--pixel) calc(2 * var(--pixel));
+}
+
+.crud-links img {
+    margin-right: calc(2 * var(--pixel));
+}
+
+.crud-links:hover {
+    
+    transition: all ease-in-out 0.2s;
+    background-color: var(--light-mode);
+    color: var(--dark-mode);
+    img {
+        filter: invert(1);
+    }
+}
