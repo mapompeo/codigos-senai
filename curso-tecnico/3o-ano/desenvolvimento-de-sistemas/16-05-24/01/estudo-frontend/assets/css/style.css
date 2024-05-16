@@ -1,0 +1,40 @@
+:root {
+    --light-mode: #f1f1f1;
+    --dark-mode: #1f1f1f;
+}
+
+body {
+    background-color: var(--light-mode);
+    color: var(--dark-mode);
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+button, input {
+    transition: all 0.2s ease-in-out;
+    width: auto;
+    padding: 8px 16px;
+    height: 40px;
+    margin: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: var(--light-mode);
+    border: solid 2px var(--dark-mode);
+}
+
+button:hover {
+    cursor: pointer;
+    color: var(--light-mode);
+    border: solid 2px var(--light-mode);
+    background-color: var(--dark-mode);
+}
+
+input {
+    height: 20px;
+}
