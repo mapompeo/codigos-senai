@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --ligthMode: #f1f1f1;
+    --darkMode: #1f1f1f;
+    --color: rgb(146, 224, 255);
+    --padding: 8px;
+    --margin: 8px;
+    --border-radius: 8px;
+    --font-size: 16px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--ligthMode);
+    color: var(--darkMode);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size);
+}
+
+.doador {
+    margin: calc(4 * var(--margin)) 0;
+    background-color: var(--color);
+    width: 400px;
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.doador h1 {
+    text-align: center;
+    margin: calc(3 * var(--margin));
+}
+
+.inputLabel {
+    margin: var(--margin);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.inputLabel input {
+    border-radius: var(--border-radius);
+    border: solid 1px white;
+    padding: var(--padding);
+    margin-bottom: calc(2 * var(--margin));
+    margin-top: var(--margin);
+    width: 100%;
+}
+
+.inputLabel label {
+    width: 100%;
+}
+
+#estado {
+    margin-bottom: 0;
+}
+
+.buttons {
+    transition: all ease-in-out 0.3s;   
+    border: solid 1px var(--darkMode);
+    background-color: var(--ligthMode);
+    border-radius: var(--border-radius);
+    padding: var(--padding) calc(2 * var(--padding));
+    margin: var(--margin);
+}
+
+.buttons:hover {
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+    background-color: var(--darkMode);
+    color: var(--ligthMode);
+}
+
+.inputCEP {
+    display: flex;
+    justify-content: center;
+}

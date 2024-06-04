@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" modified="2024-06-04T17:03:38.949Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="vodenrcwdMrY3XTa1PEZ" version="24.3.1" type="device">
+  <diagram name="Página-1" id="suDgwk7Zk5HLzIHxiriq">
+    <mxGraphModel dx="530" dy="270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vr5poqOgxZD_btVmHHxc-1" value="Doador" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="vr5poqOgxZD_btVmHHxc-2" value="- idDoador: Long&lt;div&gt;- nome: String&lt;/div&gt;&lt;div&gt;- cpf: Integer&lt;/div&gt;&lt;div&gt;- telefone: String&lt;/div&gt;&lt;div&gt;- email: String&lt;/div&gt;&lt;div&gt;- cep: String&lt;/div&gt;&lt;div&gt;- logradouro: String&lt;/div&gt;&lt;div&gt;- complemento: String&lt;/div&gt;&lt;div&gt;- bairro: String&lt;/div&gt;&lt;div&gt;- localidade: String&lt;/div&gt;&lt;div&gt;- estado: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vr5poqOgxZD_btVmHHxc-1">
+          <mxGeometry y="26" width="160" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="vr5poqOgxZD_btVmHHxc-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="vr5poqOgxZD_btVmHHxc-1">
+          <mxGeometry y="200" width="160" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="vr5poqOgxZD_btVmHHxc-4" value="+ cadastrar(): String&lt;div&gt;+ listar(): Doador&lt;/div&gt;&lt;div&gt;+ atualizar(): String&lt;/div&gt;&lt;div&gt;+ buscar(): Doador&lt;/div&gt;&lt;div&gt;+ apagar(): Doador&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vr5poqOgxZD_btVmHHxc-1">
+          <mxGeometry y="218" width="160" height="82" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

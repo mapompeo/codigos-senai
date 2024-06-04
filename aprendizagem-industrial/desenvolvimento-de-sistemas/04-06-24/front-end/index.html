@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+    <link rel="shortcut icon" href="assets/img/home-icon.svg" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div class="doador">
+            <h1>Doador<br>Pessoa Física</h1>
+            <div class="inputLabel">
+                <label for="nome">Digite o nome do doador:</label>
+                <input type="text" id="nome" placeholder="Nome do doador" required>
+
+                <label for="cpf">Digite o CPF do doador:</label>
+                <input type="number" id="cpf" placeholder="CPF do doador" required>
+
+                <label for="telefone">Digite o telefone do doador:</label>
+                <input type="tel" id="telefone" placeholder="Telefone do doador" required>
+
+                <label for="email">Digite o email do doador:</label>
+                <input type="email" id="email" placeholder="Email do doador" required>
+                
+                <label for="cep">Digite o CEP do doador:</label>
+                <div class="inputCEP">
+                    <input type="text" id="cep" placeholder="CEP do doador">
+                    <button id="buscaCEP" class="buttons">Buscar CEP</button>
+                </div>
+
+                                
+                <label for="logradouro">Digite o logradouro do doador:</label>
+                <input type="text" id="logradouro" placeholder="Logradouro do doador">
+                
+                <label for="complemento">Digite o complemento do doador:</label>
+                <input type="text" id="complemento" placeholder="Complemento do doador">
+                                                
+                <label for="bairro">Digite o bairro do doador:</label>
+                <input type="text" id="bairro" placeholder="Bairro do doador">
+                
+                <label for="localidade">Digite a localidade do doador:</label>
+                <input type="text" id="localidade" placeholder="Localidade do doador">
+                                
+                <label for="uf">Digite o uf do doador:</label>
+                <input type="text" id="uf" placeholder="Uf do doador">
+            </div>
+            <button id="cadastrar" class="buttons">Cadastrar</button>
+        </div>
+        <div id="resposta"></div>
+    </main>
+</body>
+</html>
