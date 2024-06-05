@@ -1,0 +1,13 @@
+USE LOCADORACARROS;
+
+SELECT * FROM CLIENTES;
+SELECT * FROM CARROS;
+SELECT * FROM COMPRA;
+
+-- ----------------------------------------------------------------------------
+
+SELECT * FROM CLIENTES;
+
+SELECT CARROS.COD, CARROS.MODELO FROM CARROS;
+
+SELECT COUNT(COD) FROM COMPRA;
