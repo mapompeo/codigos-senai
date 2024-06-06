@@ -1,0 +1,122 @@
+/* Importando a fonte Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+/* Variáveis CSS */
+:root {
+    --font-family: 'Montserrat', sans-serif;
+    --bg-color: #f4f4f4;
+    --primary-color: #28a745;
+    --primary-hover-color: #218838;
+    --text-color: #333;
+    --label-color: #555;
+    --input-border-color: #ccc;
+    --container-bg-color: #fff;
+    --container-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    --response-bg-color: #e9ffe8;
+    --response-border-color: #b3e6b3;
+    --response-text-color: #2e7d32;
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.LocalStorage, .veiculo {
+    background: var(--container-bg-color);
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: var(--container-shadow);
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: var(--label-color);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--input-border-color);
+    border-radius: 4px;
+    font-family: var(--font-family);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: var(--font-family);
+}
+
+button:hover {
+    background-color: var(--primary-hover-color);
+}
+
+#respostaLocalStorage,
+#respostaCarro {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid var(--response-border-color);
+    background-color: var(--response-bg-color);
+    color: var(--response-text-color);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    main {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .LocalStorage, .veiculo {
+        margin: 20px;
+    }
+}
