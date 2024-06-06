@@ -5,10 +5,7 @@ import com.desenvolvedor.Api.Java.repository.IUsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
@@ -21,6 +18,27 @@ public class Principal {
     @Autowired
     public Principal(IUsuarioRepository repositorio) {
         this.repositorio = repositorio;
+    }
+
+    @PutMapping("/usuario")
+    public ResponseEntity<Usuario> putUsuarioById(@PathVariable Long id, @ResquestBody Usuario atualizarUsuario) {
+        try {
+            Optional<Usuario> usuario repositorio.findAllById(id);
+            if (usuario.isPresent()) {
+                Usuario user = usuario.get();
+                System.out.println(atualizarUsuario.toString());
+
+
+                return ResponseEntity.ok(user);
+            }
+            else {
+                return ResponseEntity.notFound().build();
+            }
+        }
+        catch(Exception e) {
+            e.printStackTrace();
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
 
     @GetMapping("/")
@@ -47,6 +65,7 @@ public class Principal {
             e.printStackTrace();
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
         }
+        return ;
     }
 
     @GetMapping("/usuario")
