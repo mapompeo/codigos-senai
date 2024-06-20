@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto</title>
+    <link rel="stylesheet" href="../src/assets/style/style.css">
+    <script src="../src/assets/js/script.js" defer></script>
+    <script src="../src/assets/js/create.js" defer></script>
+    <script src="../src/assets/js/list.js" defer></script>
+    <script src="../src/assets/js/search.js" defer></script>
+</head>
+<body>
+    <header>
+        <a class="botaoHeader" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#181818"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>Home</a>
+        <a class="botaoHeader" href="fabricante.html"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#181818"><path d="M160-720v-80h640v80H160Zm0 560v-240h-40v-80l40-200h640l40 200v80h-40v240h-80v-240H560v240H160Zm80-80h240v-160H240v160Zm-38-240h556-556Zm0 0h556l-24-120H226l-24 120Z"/></svg>Fabricante</a>
+        <a class="botaoHeader" href="produto.html"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#181818"><path d="M200-80q-33 0-56.5-23.5T120-160v-451q-18-11-29-28.5T80-680v-120q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v120q0 23-11 40.5T840-611v451q0 33-23.5 56.5T760-80H200Zm0-520v440h560v-440H200Zm-40-80h640v-120H160v120Zm200 280h240v-80H360v80Zm120 20Z"/></svg>Produto</a>
+    </header>
+    <main>
+        <div class="container flex containerTop">
+            <h1>Cadastrar produto</h1>
+            <div class="labelInput column">
+                <label for="nome">Nome do produto:</label>
+                <input type="text" id="nome" placeholder="Nome do produto">
+                <label for="quantidade">Quantidade do produto:</label>
+                <input type="number" id="quantidade" placeholder="Quantidade do produto">
+            </div>
+            <button id="cadastrarProduto">Cadastrar</button>
+        </div>
+        <div class="container flex">
+            <h1>Buscar produto</h1>
+            <div class="labelInput column">
+                <label for="nome">Nome do produto:</label>
+                <input type="text" id="nome" placeholder="Nome do produto">
+            </div>
+            <div id="resposta"></div>
+            <button id="buscarProduto">Buscar</button>
+        </div>
+        <div class="container flex">
+            <h1>Listar produto</h1>
+            <div class="labelInput column">
+                <label for="nome">Nome do produto:</label>
+                <input type="text" id="nome" placeholder="Nome do produto">
+            </div>
+            <div id="resposta"></div>
+            <button id="ListarProduto">Listar</button>
+        </div>
+    </main>
+    <footer>
+        <div class="containerFooter">
+            <strong>
+                <p class="textoFooter">Developed by:</p>
+            </strong>
+            <ul class="developers">
+                <a href="https://github.com/Bryanps7" target="_blank"><img class="avatar" src="https://avatars.githubusercontent.com/u/146386080?v=4" alt="">Bryan Prinz</a>
+                <a href="https://github.com/mapompeo" target="_blank"><img class="avatar" src="https://avatars.githubusercontent.com/u/116411004?v=4" alt="">Matheus Pompeo</a>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
