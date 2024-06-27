@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "jest": "^29.7.0",
+    "readline-sync": "^1.4.10"
+  },
+  "name": "teste-unitario",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

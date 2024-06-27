@@ -1,0 +1,84 @@
+:root {
+    --background-color: #f0f0f5;
+    --container-bg-color: #ffffff;
+    --text-color: #333333;
+    --border-color: #cccccc;
+    --button-bg-color: #28a745;
+    --button-bg-hover-color: #218838;
+    --button-text-color: #ffffff;
+    --font-family: Arial, sans-serif;
+    --border-radius: 8px;
+    --box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    --padding: 20px;
+    --margin-bottom: 15px;
+    --input-padding: 10px;
+    --button-padding: 10px;
+    --font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: var(--container-bg-color);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: var(--text-color);
+}
+
+.form-group {
+    margin-bottom: var(--margin-bottom);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+
+input {
+    width: 100%;
+    padding: var(--input-padding);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+.btn {
+    transition: all ease-in-out 0.2s;
+    width: 100%;
+    padding: var(--button-padding);
+    background-color: var(--button-bg-color);
+    border: none;
+    color: var(--button-text-color);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: var(--font-size);
+}
+
+.btn:hover {
+    transition: all ease-in-out 0.2s;
+    background-color: var(--button-bg-hover-color);
+}
+
+.search-box {
+    margin-top: 20px;
+}

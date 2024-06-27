@@ -1,0 +1,99 @@
+:root {
+    --background-color-linear-gradient-1: blue;
+    --background-color-linear-gradient-2: white;
+    --background-color-button: black;
+    --font-color: white;
+    --margin: 16px;
+    --padding: 16px;
+    --border-radius: 16px;
+    --border-color: black
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(90deg, var(--background-color-linear-gradient-1), var(--background-color-linear-gradient-2));
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: var(--font-color);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+a, button {
+    font-weight: bold;
+    transition: all ease-in-out 0.2s;
+    background-color: var(--background-color-button);
+    text-decoration: none;
+    color: var(--font-color);
+    margin: var(--margin);
+    padding: var(--padding) calc(2 * var(--padding));
+    border-radius: var(--border-radius);
+    border: solid 3px var(--border-color);
+
+}
+
+a:hover, button:hover {
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+    background-color: transparent;
+}
+
+.label-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    color: var(--font-color);
+    margin-top: var(--margin);
+}
+
+input {
+    transition: all ease-in-out 0.2s;
+    background-color: var(--background-color-button);
+    width: 300px;
+    margin: var(--margin);
+    padding: 8px;
+    color: var(--font-color);
+    border: solid 1px var(--background-color-button);
+    border-radius: var(--border-radius);
+}
+
+input:hover {
+    transition: all ease-in-out 0.2s;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+::placeholder {
+    color: var(--font-color);
+}
