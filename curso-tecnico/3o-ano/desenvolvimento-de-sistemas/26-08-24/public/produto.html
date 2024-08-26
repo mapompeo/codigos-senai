@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Produtos</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <section class="form-section">
+            <h2>Cadastrar Produto</h2>
+            <form id="form-cadastrar">
+                <input type="text" id="nome" placeholder="Nome" required>
+                <input type="number" id="quantidade" placeholder="Quantidade" required>
+                <input type="number" id="preco" placeholder="Preço" required>
+                <button type="submit" id="cadastrar">Cadastrar</button>
+            </form>
+        </section>
+        <section class="form-section">
+            <h2>Lista de Produtos</h2>
+            <ul id="lista-produtos"></ul>
+        </section>
+        <section class="form-section">
+            <h2>Consultar Produto</h2>
+            <form id="form-consultar">
+                <input type="number" id="consultar-id" placeholder="ID do Produto" required>
+                <button type="submit" id="consultar">Consultar</button>
+            </form>
+            <div id="produto-consultado"></div>
+        </section>
+        <section class="form-section">
+            <h2>Atualizar Produto</h2>
+            <form id="form-atualizar">
+                <input type="number" id="atualizar-id" placeholder="ID do Produto" required>
+                <input type="text" id="novo-nome" placeholder="Novo Nome">
+                <input type="number" id="nova-quantidade" placeholder="Nova Quantidade">
+                <input type="number" id="novo-preco" placeholder="Novo Preço">
+                <button type="submit" id="atualizar">Atualizar</button>
+            </form>
+        </section>
+        <section class="form-section">
+            <h2>Apagar Produto</h2>
+            <form id="form-apagar">
+                <input type="number" id="apagar-id" placeholder="ID do Produto" required>
+                <button type="submit" id="apagar">Apagar</button>
+            </form>
+        </section>
+    </main>
+    <a href="index.html">Voltar</a>
+</body>
+</html>

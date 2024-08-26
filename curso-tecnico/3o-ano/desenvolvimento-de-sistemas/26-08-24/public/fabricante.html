@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Fabricantes</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/fabricante.js" defer></script>
+</head>
+<body>
+    <main>
+        <section class="form-section">
+            <h2>Cadastrar Fabricante</h2>
+            <form id="form-cadastrar">
+                <input type="text" id="nomeFabricante" placeholder="Nome do Fabricante" required>
+                <button type="submit" id="cadastrar">Cadastrar</button>
+            </form>
+        </section>
+        <section class="form-section">
+            <h2>Lista de Fabricantes</h2>
+            <ul id="lista-fabricantes"></ul>
+        </section>
+        <section class="form-section">
+            <h2>Consultar Fabricante</h2>
+            <form id="form-consultar">
+                <input type="number" id="consultar-id" placeholder="ID do Fabricante" required>
+                <button type="submit" id="consultar">Consultar</button>
+            </form>
+            <div id="fabricante-consultado"></div>
+        </section>
+        <section class="form-section">
+            <h2>Atualizar Fabricante</h2>
+            <form id="form-atualizar">
+                <input type="number" id="atualizar-id" placeholder="ID do Fabricante" required>
+                <input type="text" id="novo-nomeFabricante" placeholder="Novo Nome do Fabricante">
+                <button type="submit" id="atualizar">Atualizar</button>
+            </form>
+        </section>
+        <section class="form-section">
+            <h2>Apagar Fabricante</h2>
+            <form id="form-apagar">
+                <input type="number" id="apagar-id" placeholder="ID do Fabricante" required>
+                <button type="submit" id="apagar">Apagar</button>
+            </form> 
+        </section>
+    </main>
+    <a href="index.html">Voltar</a>
+</body>
+</html>

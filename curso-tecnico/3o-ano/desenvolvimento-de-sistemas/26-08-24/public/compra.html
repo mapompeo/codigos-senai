@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Compras</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <!-- Formulário para cadastrar compra -->
+        <section class="form-section">
+            <h2>Cadastrar Compra</h2>
+            <form id="form-cadastrar">
+                <input type="number" id="codCompras" placeholder="Código da Compra" required>
+                <input type="text" id="nomeProd" placeholder="Nome do Produto" required>
+                <input type="number" id="quantidadeProd" placeholder="Quantidade do Produto" required>
+                <button type="submit" id="cadastrar">Cadastrar</button>
+            </form>
+        </section>
+
+        <!-- Lista de compras -->
+        <section class="form-section">
+            <h2>Lista de Compras</h2>
+            <ul id="lista-compras"></ul>
+        </section>
+
+        <!-- Formulário para consultar compra -->
+        <section class="form-section">
+            <h2>Consultar Compra</h2>
+            <form id="form-consultar">
+                <input type="number" id="consultar-id" placeholder="Código da Compra" required>
+                <button type="submit" id="consultar">Consultar</button>
+            </form>
+            <div id="compra-consultada"></div>
+        </section>
+
+        <!-- Formulário para atualizar compra -->
+        <section class="form-section">
+            <h2>Atualizar Compra</h2>
+            <form id="form-atualizar">
+                <input type="number" id="atualizar-id" placeholder="Código da Compra" required>
+                <input type="text" id="novo-nomeProd" placeholder="Novo Nome do Produto">
+                <input type="number" id="nova-quantidadeProd" placeholder="Nova Quantidade do Produto">
+                <button type="submit" id="atualizar">Atualizar</button>
+            </form>
+        </section>
+
+        <!-- Formulário para apagar compra -->
+        <section class="form-section">
+            <h2>Apagar Compra</h2>
+            <form id="form-apagar">
+                <input type="number" id="apagar-id" placeholder="Código da Compra" required>
+                <button type="submit" id="apagar">Apagar</button>
+            </form>
+        </section>
+
+    </main>
+    <a href="index.html">Voltar</a>
+</body>
+</html>
