@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --border-radius: 8px;
+    --margin: 10px;
+    --padding: 8px;
+    --body-background-ligth: #f1f1f1;
+    --body-background-dark: #1f1f1f;
+    --header-background: #023535;
+    --button-background: #f1f1f1;
+    --ternos-background: #023535;
+    --font-color-ligth: #1f1f1f;
+    --font-color-dark: #f1f1f1;
+    --font-size: 16px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: var(--font-color-ligth);
+    font-size: var(--font-size);
+    background-color: var(--body-background-ligth);
+}
+
+.container-menu {
+    background-color: var(--header-background);
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius);
+    width: min-content;
+}
+
+.menu {
+    display: flex;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container-ternos {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ternos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: var(--margin);
+    padding: var(--padding);
+    background-color: var(--ternos-background);
+    border-radius: var(--border-radius);
+    color: var(--font-color-dark);
+}
+
+.ternos img {
+    border-radius: var(--border-radius);
+}
+
+.button, .menu a {
+    border-radius: var(--border-radius);
+    background-color: var(--button-background);
+    border: solid 1px #1f1f1f;
+    padding: var(--padding) calc(2 * var(--padding));
+    font-weight: bold;
+    margin: var(--margin);
+    text-decoration: none;
+    color: var(--font-color-ligth);
+}
+
+.input {
+    border-radius: var(--border-radius);
+    background-color: var(--button-background);
+    border: solid 1px #1f1f1f;
+    padding: var(--padding) calc(2 * var(--padding));
+    font-weight: bold;
+    margin: var(--margin);
+}
