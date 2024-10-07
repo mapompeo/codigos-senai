@@ -1,0 +1,18 @@
+:root {
+    --font-family: 'Segoe UI';
+    --branco: #ffffff;
+    --preto: #000000;
+    --color: #0056b3;
+    --background-card: #EBEBEB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--branco);
+}

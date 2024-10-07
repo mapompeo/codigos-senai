@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Tarefas</title>
+    <link rel="stylesheet" href="assets/css/config.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/tarefas.css">
+    <script src="assets/js/tarefas.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <p>Gerenciamento de Tarefas</p>
+            <ul>
+                <li><a href="usuarios.html">Cadastro de Usuários</a></li>
+                <li><a href="tarefas.html">Cadastro de Tarefas</a></li>
+                <li><a href="gerenciar-tarefas.html">Gerenciar de Tarefas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Cadastro de Tarefas</h1>
+        <div class="card">
+            <form>
+                <label for="descricao">Descrição:</label>
+                <input type="text" id="descricao" name="descricao" required>
+                <label for="setor">Setor:</label>
+                <input type="text" id="setor" name="setor" required>
+                <label for="usuario">Usuário:</label>
+                <select id="usuario" name="usuario" required>
+                    <option value="José">José</option>
+                    <option value="Kauã">Kauã</option>
+                    <option value="Matheus">Matheus</option>
+                </select>
+                <label for="prioridade">Prioridade:</label>
+                <select id="prioridade" name="prioridade" required>
+                    <option value="Baixa">Baixa</option>
+                    <option value="Média">Média</option>
+                    <option value="Alta">Alta</option>
+                </select>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

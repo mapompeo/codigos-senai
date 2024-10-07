@@ -1,0 +1,27 @@
+header {
+    background-color: var(--color);
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 15px;
+    text-align: center;
+}
+
+nav ul li a, nav p {
+    text-align: center;
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 16px;
+}
