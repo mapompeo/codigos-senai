@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Tarefas</title>
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/page.css">
+    <script src="assets/js/cadastrar-tarefa.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <a href="#">Gerenciamento de Tarefas</a>
+        <a href="cadastro-de-usuarios.html">Cadastro de Usuários</a>
+        <a href="cadastro-de-tarefas.html">Cadastro e Tarefas</a>
+        <a href="gerenciar-tarefas.html">Gerenciar Tarefas</a>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Cadastro de tarefas</h1>
+            <div class="inputs">
+                <label for="tipo">Tipo:</label>
+                <input type="text" id="tipo">
+            </div>
+            <div class="inputs">
+                <label for="area">Área:</label>
+                <input type="text" id="area">
+            </div>
+            <div class="inputs">
+                <label for="usuario">Usuário:</label>
+                <select id="usuario">
+                    <option value="José">José</option>
+                    <option value="Kauã">Kauã</option>
+                    <option value="Matheus">Matheus</option>
+                </select>
+            </div>
+            <div class="inputs">
+                <label for="prioridade">Prioridade:</label>
+                <select id="prioridade">
+                    <option value="Baixa">Baixa</option>
+                    <option value="Média">Média</option>
+                    <option value="Alta">Alta</option>
+                </select>
+            </div>
+            <button onclick="cadastrar()" class="botao">Cadastrar</button>
+        </div>
+    </main>
+</body>
+
+</html>

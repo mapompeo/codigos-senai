@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/page.css">
+    <script src="assets/js/cadastrar-usuario.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <a href="#">Gerenciamento de Tarefas</a>
+        <a href="cadastro-de-usuarios.html">Cadastro de Usuários</a>
+        <a href="cadastro-de-tarefas.html">Cadastro e Tarefas</a>
+        <a href="gerenciar-tarefas.html">Gerenciar Tarefas</a>
+    </header>
+    <main>
+        <form class="container">
+            <h1>Cadastro de usuários</h1>
+            <div class="inputs">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+            </div>
+            <div class="inputs">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <button onclick="cadastrar()" class="botao" type="submit">Cadastrar</button>
+        </form>
+    </main>
+</body>
+
+</html>
